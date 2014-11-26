@@ -32,6 +32,12 @@ Plugin 'majutsushi/tagbar'
 "git management
 Plugin 'tpope/vim-fugitive'
 
+"status line on steroids
+Plugin 'bling/vim-airline'
+
+"colorschemes pack
+Plugin 'chriskempson/base16-vim'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -125,7 +131,7 @@ set background=dark
 "use solarized for gvim
 ""and molokai for console
 if has("gui_running")
-    colorscheme twilight
+    colorscheme base16-bright
 else
     colorscheme molokai
 endif

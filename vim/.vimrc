@@ -38,6 +38,9 @@ Plugin 'bling/vim-airline'
 "colorschemes pack
 Plugin 'chriskempson/base16-vim'
 
+"templates for code
+Plugin 'drmingdrmer/xptemplate'
+
 call vundle#end()
 filetype plugin indent on
 

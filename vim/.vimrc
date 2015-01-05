@@ -86,3 +86,17 @@ autocmd BufWritePre * :%s/\s\+$//e          "trim triling whitespaces on buffer 
 set laststatus=2                            "always display status line
 "format of status line
 set stl=%f\ %m\ %r\ %y\ [Len\ %L:%p%%]\ [Pos\ %02l:%02c\ 0x%O]\ [%3b][%02Bh]\ [Buf\ #%n]
+
+"functions
+function ToggleSpell()                      "toggle spell checking
+    if !exists("b:isChecked") || !b:isChecked
+        setlocal spell spelllang=en_us
+        let b:isChecked = 1
+    else
+        set nospell
+        let b:isChecked = 0
+    endif
+endfunction
+
+"key bindings
+nmap <F5> :call ToggleSpell()<CR>

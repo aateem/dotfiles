@@ -20,13 +20,16 @@ nmap <F6> :TagbarToggle<CR>
 Plugin 'scrooloose/syntastic'               "syntax checking for python and others
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_auto_loc_list = 1           "automatically toggle quickfix window
-let g:syntastic_python_flake8_args='--ignore=H302'
+let g:syntastic_python_flake8_args='--ignore=H302,H802'
 
 Plugin 'kien/ctrlp.vim'                     "switch files in projects lika boss
 set wildignore+=*.pyc,*.swp                 "exluding patterns for files
 let g:ctrlp_working_path_mode = 'r'         "set current directory
 let g:ctrlp_map = '<c-p>'                   "keys combination for plugin invocation
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+nmap <leader>bb :CtrlPBuffer<cr>
+nmap <leader>bm :CtrlPMixed<cr>
+nmap <leader>bs :CtrlPMRU<cr>
 
 Plugin 'scrooloose/nerdtree'                "sometimes NerdTREE come in handy
 let NERDTreeIgnore = ['\.pyc$']             "make NERDTree ignore certain files

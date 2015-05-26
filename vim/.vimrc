@@ -11,3 +11,4 @@ let $VIMDIR=fnamemodify($MYVIMRC, ':h') . '/.vim'
 source $VIMDIR/vim.d/bundle.vim
 source $VIMDIR/vim.d/general.vim
 source $VIMDIR/vim.d/appearance.vim
+source $VIMDIR/vim.d/additional_settings.vim

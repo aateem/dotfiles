@@ -4,6 +4,8 @@ set synmaxcol=2048      " limit number of chars in line that are colorized
 
 set mousehide           " hide mouse cursor while typing
 
+set laststatus=2        " always display status line
+
 set background=dark
 colorscheme molokai
 

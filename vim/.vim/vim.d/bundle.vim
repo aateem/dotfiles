@@ -13,5 +13,9 @@ endif
 set rtp+=$VIMDIR/bundle/Vundle.vim/
 
 call vundle#begin()
+Plugin 'gmarik/vundle'
 Plugin 'chriskempson/base16-vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'bling/vim-airline'
 call vundle#end()

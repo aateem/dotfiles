@@ -9,6 +9,7 @@ let $VIMDIR=fnamemodify($MYVIMRC, ':h') . '/.vim'
 " source separate configuration files in this order to avoid errors with
 " using of not yet available stuff
 source $VIMDIR/vim.d/bundle.vim
+source $VIMDIR/vim.d/bundle_settings.vim
 source $VIMDIR/vim.d/general.vim
 source $VIMDIR/vim.d/appearance.vim
 source $VIMDIR/vim.d/additional_settings.vim

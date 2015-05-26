@@ -18,4 +18,6 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
+Plugin 'majutsushi/tagbar'
+Plugin 'kien/ctrlp.vim'
 call vundle#end()

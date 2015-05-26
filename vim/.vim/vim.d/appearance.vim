@@ -1,10 +1,15 @@
+scriptencoding utf-8
+
 set t_Co=256            " set 256 color mode
 
-set synmaxcol=2048      " limit number of chars in line that are colorized 
+set synmaxcol=2048      " limit number of chars in line that are colorized
 
 set mousehide           " hide mouse cursor while typing
 
 set laststatus=2        " always display status line
+
+set list
+set listchars=tab:»·,trail:·
 
 set background=dark
 colorscheme molokai

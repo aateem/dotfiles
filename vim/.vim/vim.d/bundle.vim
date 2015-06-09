@@ -21,4 +21,5 @@ Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
+Plugin 'fholgado/minibufexpl.vim'
 call vundle#end()

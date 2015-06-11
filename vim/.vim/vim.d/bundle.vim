@@ -22,4 +22,6 @@ Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'fholgado/minibufexpl.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()

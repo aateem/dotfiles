@@ -18,3 +18,11 @@ export KEYTIMEOUT=1
 
 # enable completion functions
 autoload -U compinit && compinit
+
+# Enable virtualenvwrappers if exists.
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    . /usr/local/bin/virtualenvwrapper.sh
+fi
+
+# Don't generate *.pyc and *.pyo
+export PYTHONDONTWRITEBYTECODE=1

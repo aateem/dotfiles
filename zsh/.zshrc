@@ -6,6 +6,8 @@ alias gr='grep -nr --color'
 # git aliases
 alias gru='git remote update'
 alias gch='git checkout'
+alias gbr='git branch'
+alias gri='git rebase -i'
 
 # fucking avesome vimode magic
 bindkey -v

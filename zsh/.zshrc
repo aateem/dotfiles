@@ -2,6 +2,10 @@ PROMPT='[% %~]% : '
 
 # aliases
 alias ll='ls -AlG'
+alias gr='grep -nr --color'
+# git aliases
+alias gru='git remote update'
+alias gch='git checkout'
 
 # fucking avesome vimode magic
 bindkey -v

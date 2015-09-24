@@ -136,3 +136,6 @@ fi
 
 # set default editor to vim
 export EDITOR=vim
+
+# do not write binary files for python
+export PYTHONDONTWRITEBYTECODE=1

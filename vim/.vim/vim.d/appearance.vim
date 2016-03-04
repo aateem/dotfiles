@@ -15,7 +15,7 @@ set background=dark
 colorscheme molokai
 
 if has('gui_running')
-    colorscheme base16-twilight
+    colorscheme base16-atelierlakeside
 
     set guioptions-=m  " remove menubar from gui interface
     set guioptions-=T  " remove toolbar from gui interface

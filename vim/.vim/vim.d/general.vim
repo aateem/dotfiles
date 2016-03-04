@@ -24,12 +24,7 @@ endif
 set directory=$VIMDIR/swap
 set backupdir=$VIMDIR/backup
 
-set autoindent      " inherit current intendation in the next line
-set softtabstop=4   " always insert spaces instead of tabs
-set shiftwidth=4    " shift lines by 4 spaces
-set tabstop=4       " tab width in space characters
 set smarttab        " align tab instead of just inserting 4 spaces
-set expandtab       " insert spaces instead tab
 
 set incsearch       " enable incremental search
 set ignorecase      " ignore search case
@@ -50,3 +45,5 @@ set autochdir       " change current working directory for vim
 set wildmenu        " enchanced commandline completion
 
 set showmode        " show what mode you are in
+
+set encoding=utf-8

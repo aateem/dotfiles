@@ -15,3 +15,19 @@ function ToggleSpell()
     endif
 endfunction
 nmap <F5> :call ToggleSpell()<CR>
+
+"simplified windows navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+"python file settings
+au BufNewFile,BufRead python
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix

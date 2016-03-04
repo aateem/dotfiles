@@ -24,4 +24,5 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'hynek/vim-python-pep8-indent'
+Plugin 'altercation/vim-colors-solarized'
 call vundle#end()

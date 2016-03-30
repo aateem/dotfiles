@@ -12,7 +12,7 @@ set list
 set listchars=tab:»·,trail:·
 
 set background=dark
-colorscheme molokai
+colorscheme railscasts
 
 if has('gui_running')
     colorscheme base16-atelierlakeside

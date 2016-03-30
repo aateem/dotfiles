@@ -25,4 +25,5 @@ Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jpo/vim-railscasts-theme'
 call vundle#end()

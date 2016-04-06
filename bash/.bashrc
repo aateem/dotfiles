@@ -139,3 +139,7 @@ export EDITOR=vim
 
 # do not write binary files for python
 export PYTHONDONTWRITEBYTECODE=1
+
+# manage custom bin dir
+if [ ! ~/bin ]; then mkdir -p ~/bin; fi
+export PATH=$PATH:~/bin

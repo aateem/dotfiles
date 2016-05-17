@@ -46,4 +46,8 @@ set wildmenu        " enchanced commandline completion
 
 set showmode        " show what mode you are in
 
+set expandtab       " replace tabs with spaces
+set tabstop=4       " number of spaces to replace tab
+set shiftwidth=4    " number of spaces inserted for intendation
+
 set encoding=utf-8

@@ -15,7 +15,7 @@ set background=dark
 colorscheme railscasts
 
 if has('gui_running')
-    colorscheme base16-atelierlakeside
+    colorscheme base16-default
 
     set guioptions-=m  " remove menubar from gui interface
     set guioptions-=T  " remove toolbar from gui interface

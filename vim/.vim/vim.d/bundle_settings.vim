@@ -16,7 +16,3 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ["flake8"]
-
-"MBE settings
-let g:miniBufExplBRSplit = 0
-nmap <leader>mt :MBEToggle<cr>

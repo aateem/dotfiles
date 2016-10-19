@@ -27,3 +27,9 @@ if has('gui_running')
         set guifont=Ubuntu\ Mono\ 13
     endif
 endif
+
+" use this with 8.0 version
+if has('termguicolors')
+    set termguicolors
+    colorscheme base16-atelier-plateau
+endif

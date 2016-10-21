@@ -31,3 +31,9 @@ au BufNewFile,BufRead python
     \ set expandtab
     \ set autoindent
     \ set fileformat=unix
+    \ set cc=80
+
+" go mappings
+au FileType go set nolist
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <Leader>gc <Plug>(go-doc)

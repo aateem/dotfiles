@@ -32,7 +32,6 @@ set smartcase       " match upper case when it is specified
 set hlsearch        " highlight search results
 
 set number          " enable line numbering
-set cc=80           " display boundary for line length
 set cursorline      " highlight line cursor pos
 set cursorcolumn    " highlight column cursor pos
 set virtualedit=all " you can move your cursor through every position in text

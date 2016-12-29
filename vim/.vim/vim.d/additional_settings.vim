@@ -38,3 +38,4 @@ au FileType go set nolist
 au FileType go nmap <leader>gr <Plug>(go-run)
 au FileType go nmap <Leader>gc <Plug>(go-doc)
 au FileType go nmap <Leader>gb <Plug>(go-build)
+au FileType go nmap <Leader>gt <Plug>(go-def-tab)

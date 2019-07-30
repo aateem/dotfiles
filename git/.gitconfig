@@ -1,11 +1,5 @@
 [user]
 	name = Artem Roma
-	email = aroma@mirantis.com
+	email = artem.roma@datarobot.com
 [core]
 	editor = /usr/bin/vim
-[filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
-[push]
-	default = simple

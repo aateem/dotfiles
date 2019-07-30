@@ -26,4 +26,5 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'fatih/vim-go'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()

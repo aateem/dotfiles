@@ -27,3 +27,10 @@ let g:go_highlight_functions = 1
 let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+" vim-go requires Vim 7.4.2009 or Neovim 0.3.2, but you're using an older version.
+" Please update your Vim for the best vim-go experience.
+" If you really want to continue you can set this to make the error go away:
+let g:go_version_warning = 0
+
+map <C-n> :NERDTreeToggle<CR>
